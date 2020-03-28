@@ -7,4 +7,4 @@ read thirdnumber
 key=1
 computationAnsDictionary[key++]=$(( $firstnumber+$secondnumber*$thirdnumber ))
 computationAnsDictionary[key++]=$(( $firstnumber*$secondnumber+$thirdnumber ))
-
+computationAnsDictionary[key++]=$(( $firstnumber+$secondnumber/$thirdnumber ))

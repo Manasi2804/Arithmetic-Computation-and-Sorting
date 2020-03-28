@@ -9,3 +9,6 @@ computationAnsDictionary[key++]=$(( $firstnumber+$secondnumber*$thirdnumber ))
 computationAnsDictionary[key++]=$(( $firstnumber*$secondnumber+$thirdnumber ))
 computationAnsDictionary[key++]=$(( $firstnumber+$secondnumber/$thirdnumber ))
 computationAnsDictionary[key++]=$(( $firstnumber%$secondnumber+$thirdnumber ))
+
+printf "Values of dictionary:" ${computationAnsDictionary[@]}
+

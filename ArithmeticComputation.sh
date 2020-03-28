@@ -33,3 +33,13 @@ do
 done
 printf "Array element is desending order is:"${computationAnsArray[@]}
 
+index=key
+countofArray=1
+while [[ $(( $index+1 )) -ne 0 ]]
+do
+	sortArrayDesending[countofArray]=${computationAnsArray[index]}
+	(( countofArray++ ))
+	(( index-- ))
+done
+echo "Array element in ascending order is: " ${sortArrayDesending[@]}
+
